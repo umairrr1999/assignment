@@ -1,0 +1,66 @@
+@font-face{
+    font-family: monst;
+    src: url(font/Montserrat-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgblue{
+    background-color: rgb(37, 37, 37) !important;
+}
+.bgdblue{
+    background-color: rgb(27, 27, 27) !important;
+}
+.logo{
+    width: 35%;
+    height: 35%;
+}
+.banners img{
+    width: 300px;
+    height: 500px;
+}
+.nav-item a{
+    font-family: monst;
+}
+h5{
+    font-family: monst;
+    
+}
+/* card */
+.banner{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.banner:hover{
+    transition: 300ms;
+    opacity: 0.6;
+    color: black;
+    
+}
+.banner-text{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25pt;
+    font-family: monst;
+}
+.icon{
+    margin-bottom: -10px;
+    margin-right: 10px;
+}
+.rcard{
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.513);
+    width: 500px;
+    background-color: rgba(128, 128, 128, 0.267);
+    font-family: monst;
+}
+h2,h1{
+    font-family: monst;
+    color: white;
+}
+

@@ -1,0 +1,84 @@
+
+@font-face{
+    font-family: monst;
+    src: url(/font/Montserrat-Regular.ttf);
+}
+.dress{
+    width: 200px;
+    height: 300px;
+}
+.product>a{
+    color: white;
+}
+.product>a:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.794);
+}
+.product{
+    width: 300px;
+    height: 420px;
+    border: solid 1px gray;
+    font-family: monst;
+}
+.product:hover{
+    background-color: rgba(128, 128, 128, 0.287);
+    transition: 200ms;
+}
+.productpic{
+    width: 100%;
+    min-width: 350px ;
+    height: auto;
+}
+.productcode{
+    font-size: 12pt;
+    width: auto;
+    height: 35px;
+}
+.whatsappb{
+    border: green 1px solid;
+    background-color: #25D366;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+.whatsappb:hover{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    transition: 200ms;
+    background-color:rgb(0, 170, 62) ;
+}
+.messengerb{
+    border: rgb(0, 119, 255) 1px solid;
+    background-color: #0084FF;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
+.messengerb:hover{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    transition: 200ms;
+    background-color:rgb(0, 109, 211) ;
+}
+.waicon{
+    margin-bottom: -10px;
+    margin-right: 20px;
+}
+footer{
+    border-top: 1px solid black;
+}
+footer a:hover{
+    text-decoration: none;
+}
+.contact:hover{
+    text-decoration: none;
+    color: rgb(71, 70, 70);
+    transition: 200ms;
+}
+.contactsoc a:hover{
+    text-decoration: none;
+    transition: 200ms;
+}
+.contactsoc h3{
+    font-family: monst;
+}
